@@ -1,7 +1,6 @@
 from itertools import combinations
 from itertools import permutations
-import xlrd
-from xlutils.copy import copy
+from openpyxl import load_workbook
 
 loc_variable = "D://Reverie-20210804T085618Z-001//Reverie//Selenium//variable.xls"
 loc_react_test_case = "D://Reverie-20210804T085618Z-001//Reverie//Selenium//react test cases.xls"
